@@ -9,7 +9,7 @@ public interface X {
     //mặc định phương thức là public abstract
     public abstract void doSomeThinh();
 
-    //giống với abstract class:vẻ
+    //giống với abstract class:về
     //chứa abstract method.
     //k tạo đc đối tượng.
     //dùng cho các lớp khác extends hoặc implements.
@@ -79,4 +79,8 @@ abstract class Shape implements Drawable {
     public void Draw() {
         System.out.println("abcd");
     }
+
+//    @Override
+//    public void Arase() {
+//    }
 }
